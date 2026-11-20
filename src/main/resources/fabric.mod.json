@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "sidequests",
+  "version": "${version}",
+  "name": "SkyBlock Sidequests",
+  "description": "Personal quest suggestions from your SkyBlock profile. Unofficial; not affiliated with Hypixel or Mojang.",
+  "authors": ["Sidequests"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {"client": ["dev.sidequests.client.SidequestsClient"]},
+  "depends": {"fabricloader": ">=0.20.1", "minecraft": "26.3", "java": ">=25", "fabric-api": "*"}
+}
